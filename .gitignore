@@ -1,0 +1,21 @@
+# Alpaca / API credentials — never commit
+.env
+*.key
+secrets.json
+
+# Generated output
+trader/
+report.html
+summary.json
+trades.csv
+trades.csv.gz
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
